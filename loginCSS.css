@@ -86,22 +86,19 @@ input {
 }
 
 .option {
-    display: flex;
-    margin: 10px auto;
-    justify-content: center;
     flex-wrap: wrap;
+    margin-top: 5%;
 }
 
-button {
+.option button {
     font-size: 18px;
     padding: 5px 16px;
-    width: 150px;
+    width: 49%;
     border-color: white;
     border-radius: 20px;
     color: white;
     text-transform: capitalize;
     font-weight: bold;
-    background-color: dodgerblue;
 }
 
 #login-button {
@@ -119,13 +116,13 @@ label {
 
 @media screen and (max-width: 550px) {
     .container-login {
-        width: 90%;
+        width: 80%;
         background-attachment: fixed;
     }
 }
 
 @media screen and (max-width: 550px) {
-    .option {
+    .option button {
         width: 100%;
     }
 }
@@ -133,5 +130,11 @@ label {
 @media screen and (max-width: 550px) {
     .backround-login {
         background-attachment: fixed;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .container-login h1 {
+        font-size: 18vw
     }
 }
