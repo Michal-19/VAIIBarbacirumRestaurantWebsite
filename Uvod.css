@@ -19,14 +19,9 @@ body {
     height: 100%;
 }
 
-.nav-item a {
-    color: white;
-
-}
-
 .nav-item {
     width: 100% !important;
-    background-color: white !important;
+    background-color: transparent;
 }
 
 .nav-item a {
@@ -34,10 +29,6 @@ body {
     font-weight: bold;
     text-align: center !important;
     border: 1px solid white;
-}
-
-.nav-item {
-    background-color: transparent !important;
 }
 
 .nav-item:hover {

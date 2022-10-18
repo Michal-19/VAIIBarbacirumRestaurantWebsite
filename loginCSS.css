@@ -8,22 +8,40 @@ body {
 }
 
 
-html, body, .container-login {
+/*html, body, .container-login {
     height: 100%;
+    width: 100%;
 }
 
 .backround-login {
     background: url("pizza_pozadie.jpg");
+    position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     z-index: -1;
-    position: absolute;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
+}*/
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url("pizza_pozadie.jpg");
+    position: absolute;
+    /*background-position: center center;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
 }
 
 .container-login {
